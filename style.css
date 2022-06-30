@@ -1,0 +1,402 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+/* font-family: 'Open Sans', sans-serif; 
+font Weight: 400, 600 e 700*/
+
+* {
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+    text-decoration: none;    
+}
+
+body {
+    height: 100vh;
+    max-width: 100%;
+}
+
+.first-half {
+    background-color: #276ba3;
+    color: white;
+    height: 267.5px;
+    /* height: 50vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.main-title {
+    padding-top: 70px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+} 
+
+.main-subtitle{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.second-half{
+    background-color: rgb(241, 241, 241);
+    /* height: 267.5px; */
+    height: 50vh;
+}
+
+.plans-boxes{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
+}
+
+
+/* setting all check icons size*/
+img {
+    width: 19px;
+}
+
+
+/*---------------container-left----------------------- */
+
+.container-left {
+    margin-top: -70px;
+    display: flex;
+    flex-direction: column;  
+    gap: 12px;
+    width: 220px; 
+    height: 300px;  
+    background-color: white;
+    border: 2px solid navy;    
+    border-radius: 5px; 
+    position: relative;    
+    transition: 0.3s;
+    max-width: 90%;
+}
+
+.container-left:hover {   
+    transform:scale(1.1,1.1);
+    box-shadow: 3px 3px 4px black;
+}
+
+.left-information {
+    display: flex;
+    flex-direction: column;    
+    gap: 3px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.left-title {
+    font-weight: 600;
+    font-size: 15px;
+    color: navy;
+}
+
+.left-price {
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.left-subtitle {
+    font-weight:400;
+    font-size: 10px;
+    font-style: italic;
+}
+
+.left-features {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;   
+    margin-left: 40px;
+    gap: 1px;   
+}
+
+.left-item1{
+    display: flex;    
+}
+
+.left-item2{
+    display: flex;    
+}
+
+.left-item3{
+    display: flex;    
+}
+
+.left-button {    
+    margin-top: 65px;
+    margin-left: 35px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid navy;
+    border-radius: 5px;
+    color: navy;
+    background-color: white;   
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;   
+    transition: 0.2s ease-out;
+}
+
+.left-button:hover {
+    color: white;
+    background-color: navy;     
+    cursor: pointer;  
+    filter: brightness(1.4);    
+}
+
+
+
+/* -------------container-center---------------------- */
+
+.container-center {
+    margin-top: -80px;
+    display: flex;
+    flex-direction: column;  
+    gap: 12px;
+    width: 220px; 
+    height: 310px;  
+    background-color: white;
+    border: 2px solid navy;    
+    border-radius: 5px; 
+    position: relative;    
+    transition: 0.3s;
+    max-width: 90%;
+}
+
+.container-center:hover {   
+    transform:scale(1.1,1.1);
+    box-shadow: 3px 3px 4px black;
+}
+
+.center-information {
+    display: flex;
+    flex-direction: column;    
+    gap: 3px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.special-title {
+    text-align: center;
+    background-color: #ffcc29;
+    margin-left: -40px;
+    margin-top: -10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.center-title {
+    font-weight: 600;
+    font-size: 15px;
+    color: navy;
+}
+
+.center-price {
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.center-subtitle {
+    font-weight:400;
+    font-size: 10px;
+    font-style: italic;
+}
+
+.center-features {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;   
+    margin-left: 40px;
+    gap: 1px;   
+}
+
+.center-item1{
+    display: flex;    
+}
+
+.center-item2{
+    display: flex;    
+}
+
+.center-item3{
+    display: flex;    
+}
+
+.center-item4{
+    display: flex;    
+}
+
+.center-item5{
+    display: flex;    
+}
+
+.center-button {
+    margin-top: 27px;
+    margin-left: 35px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid navy;
+    border-radius: 5px;
+    color: navy;
+    background-color: white;   
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;   
+    transition: 0.2s ease-out;
+}
+
+.center-button:hover {
+    color: white;
+    background-color: navy;     
+    cursor: pointer;  
+    filter: brightness(1.2);
+}
+
+
+
+/* ---------------container-right--------------------- */
+
+.container-right {
+    margin-top: -70px;
+    display: flex;
+    flex-direction: column;  
+    gap: 12px;
+    width: 220px; 
+    height: 300px;  
+    background-color: white;
+    border: 2px solid navy;    
+    border-radius: 5px; 
+    position: relative;    
+    transition: 0.3s;
+    max-width: 90%;
+}
+
+.container-right:hover {   
+    transform:scale(1.1,1.1);
+    box-shadow: 3px 3px 4px black;
+}
+
+.right-information {
+    display: flex;
+    flex-direction: column;    
+    gap: 3px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.right-title {
+    font-weight: 600;
+    font-size: 15px;
+    color: navy;
+}
+
+.right-price {
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.right-subtitle {
+    font-weight:400;
+    font-size: 10px;
+    font-style: italic;
+}
+
+.right-features {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;   
+    margin-left: 40px;
+    gap: 1px;   
+}
+
+.right-item1{
+    display: flex;    
+}
+
+.right-item2{
+    display: flex;    
+}
+
+.right-item3{
+    display: flex;    
+}
+
+.right-item4{
+    display: flex;    
+}
+
+.right-item5{
+    display: flex;    
+}
+
+.right-item6{
+    display: flex;    
+}
+
+.right-button {
+    margin-top: 5px;
+    margin-left: 35px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid navy;
+    border-radius: 5px;
+    color: navy;
+    background-color: white;   
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;   
+    transition: 0.2s ease-out;
+}
+
+.right-button:hover {
+    color: white;
+    background-color: navy;     
+    cursor: pointer;  
+    filter: brightness(1.2);
+}
+
+
+
+
+/* trying to do some responsive, for the first time :) */
+
+/* mobile */
+/* (iphone11) */
+
+@media (max-width: 540px) {
+
+.first-half {
+    height: 50vh;
+    width: 100vw;
+}
+
+.second-half {
+    height: 110vh;
+    width: 100vw;
+}
+
+.main-title {
+    padding-top: 190px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+} 
+
+.main-subtitle{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    width: 90vw;
+    text-align: center;
+}
+
+.plans-boxes {
+    flex-wrap: wrap;
+    gap: 120px;
+}
+
+}
