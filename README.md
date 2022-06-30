@@ -6,4 +6,4 @@
 
 - Responsive only for laptops and iphone.
 
-- Try youserlf:https://gabrielfiorotti.github.io/Web-Page-Our-Plans-/
+- Try youserlf: https://gabrielfiorotti.github.io/Web-Page-Our-Plans-/
